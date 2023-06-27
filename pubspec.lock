@@ -99,14 +99,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  syncfusion_flutter_core:
-    dependency: "direct main"
-    description:
-      name: syncfusion_flutter_core
-      sha256: "8db8f55c77f56968681447d3837c10f27a9e861e238a898fda116c7531def979"
-      url: "https://pub.dev"
-    source: hosted
-    version: "21.2.10"
   typed_data:
     dependency: transitive
     description:
@@ -123,6 +115,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  workspace_core:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "14d4e233a5e0601a34acdcf09f06fb97b2e96c12"
+      url: "https://github.com/K1yoshiSho/workspace_flutter_core.git"
+    source: git
+    version: "21.2.11"
   xml:
     dependency: "direct main"
     description:
